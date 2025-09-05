@@ -1,0 +1,16 @@
+{
+  // Use the project venv automatically
+  "python.defaultInterpreterPath": "${workspaceFolder}\\GithubTestEnv\\Scripts\\python.exe",
+
+  // Auto-activate the venv in VS Code's terminal
+  "python.terminal.activateEnvironment": true,
+
+  // Use pytest, not unittest
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["tests"],
+
+  // Nice-to-haves
+  "python.analysis.typeCheckingMode": "basic",
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}

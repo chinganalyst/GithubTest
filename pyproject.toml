@@ -1,0 +1,10 @@
+[project]
+name = "githubtest"
+version = "0.0.0"
+requires-python = ">=3.13,<3.14"
+
+# Optional: helpful if you run pytest, without extra flags
+[tool.pytest.ini.options]
+addopts = "-ra"
+testpaths = ["tests"]
+pythonpath = ["."]

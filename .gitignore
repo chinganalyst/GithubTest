@@ -1,5 +1,6 @@
 GithubTestEnv/
 __pycache__/
 .pytest_cache/
-.vscode/
+.vscode/*
+!.vscode/settings.json
 *.pyc
